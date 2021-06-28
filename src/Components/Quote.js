@@ -1,7 +1,21 @@
-const Quote = () => {
+const QuoteModal = () => {
 	return (
-		<h1>Basic wire up :) </h1>
+		< div>
+				<div id="text"></div>
+				<div id="author"></div>
+				<InfoPanel />
+		</div>
+
 	)
 };
 
-export default Quote;
+const InfoPanel = () => {
+	return (
+		<div>
+			<div id="tweet-quote"></div>
+			<div id="new-quote"></div>
+		</div>
+	)
+}
+
+export default QuoteModal;

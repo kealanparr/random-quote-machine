@@ -1,9 +1,9 @@
 import './App.css';
-import Quote from './Components/Quote.js'
+import QuoteModal from './Components/Quote.js'
 
 function App() {
   return (
-   <Quote />
+   <QuoteModal />
   );
 }
 
