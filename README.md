@@ -15,3 +15,9 @@ User Story #8: When the #new-quote button is clicked, my quote machine should fe
 User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.  
 User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.  
 User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.  
+
+Ignore manifest issue for now as only problem on localhost
+Fix font awesome and quote icon
+Style quote and author
+Deal with changing quote and bg color change
+Get twitter icon

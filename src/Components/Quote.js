@@ -1,21 +1,28 @@
 import State from '../state.json'
+import React, { useState } from 'react';
 
 const QuoteModal = () => {
 	return (
-		<div state={State}>
-				<div id="text"></div>
-				<div id="author"></div>
+		<div>
+				{ /* 	<i className="fas fa-quote-left"></i> */ }
+				<div id="text">{State.data[State.index].quote}</div>
+				<div id="author">{State.data[State.index].author}</div>
 				<InfoPanel />
 		</div>
-
 	)
 };
 
 const InfoPanel = () => {
+	
+		const [index, nextQuote] = useState(0);
+
 	return (
 		<div>
 			<a href="twitter.com/intent/tweet">Tweet</a>
-			<div id="new-quote"></div>
+			<div onClick={() => {
+				debugger;
+				nextQuote(index + 1);
+			}} id="new-quote"></div>
 		</div>
 	)
 }

@@ -21,3 +21,9 @@
 .App-link {
   color: #61dafb;
 }
+
+#new-quote {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
