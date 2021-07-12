@@ -10,17 +10,18 @@ const QuoteModal = () => {
 	}
 	
 	return (
-			State &&
-			<div>
-					<div id="text">{State.data[index].quote}</div>
-					<div id="author">{State.data[index].author}</div>	
-					<InfoPanel index={index} setIndex={setIndex} changeColor={changeColor} />
-			</div>
+		State &&
+		<div>
+				<div id="text">{State.data[index].quote}</div>
+				<div id="author">{State.data[index].author}</div>
+				<InfoPanel index={index} setIndex={setIndex} changeColor={changeColor} />
+		</div>
 	)
 };
 
 const InfoPanel = ({index, setIndex, changeColor}) => {
 	return (
+		State &&
 		<div>
 				<a id="tweet-quote" href="https://twitter.com/intent/tweet">Tweet</a>
 				<div onClick={() => {
