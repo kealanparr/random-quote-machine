@@ -8,10 +8,15 @@ body {
 }
 
 .modal {
-	max-width: 600px;
+	min-width: 600px;
 	border: 2px solid black;
 	position: relative;
 	margin: auto;
   width: 50%;
 	margin-top: 200px;
+	transition: background-color 0.8s ease;
+}
+
+#text, #author {
+	transition: background-color 0.8s ease;
 }
