@@ -22,7 +22,7 @@ const QuoteModal = () => {
 const InfoPanel = ({index, setIndex, changeColor}) => {
 	return (
 		<div>
-				<a id="tweet-quote" href="twitter.com/intent/tweet">Tweet</a>
+				<a id="tweet-quote" href="https://twitter.com/intent/tweet">Tweet</a>
 				<div onClick={() => {
 					debugger;
 					const newIndex = index + 1;
