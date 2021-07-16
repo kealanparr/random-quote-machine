@@ -7,7 +7,7 @@ const state = [
 	{
 		"author": "Mark Twain",
 		"quote": "Twenty years from now you will be more disappointed by the things you didn't do, than by the ones you did do, so throw bowlines, sail away from the safe harbor, catch the trade winds in your sail. Explore, dream, discover",
-		"color": "#F6F4D2"
+		"color": "#A8A682"
 	},
 	{
 		"author": "Randy Pausch",

@@ -1,4 +1,3 @@
-import './App.css';
 import QuoteModal from './Components/Quote.js'
 
 function App() {

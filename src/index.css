@@ -8,15 +8,67 @@ body {
 }
 
 .modal {
-	min-width: 600px;
-	border: 2px solid black;
+	min-width: 450px;
+	min-height: 250px;
 	position: relative;
+	border-radius: 3px;
 	margin: auto;
   width: 50%;
 	margin-top: 200px;
 	transition: background-color 0.8s ease;
+	background-color: #fff;
 }
 
-#text, #author {
+.modal-container {
+	padding: 40px 50px;
+}
+
+.leftQuote {
+	font-size: 40px;
+	float: left;
+	padding-right: 9px;
+	color: #A44A3F;
+}
+
+#text {
+	font-weight: 500;
+	font-size: 1.6em;
+	width: 85%;
 	transition: background-color 0.8s ease;
+	display: inline-block;
+}
+
+#author {
+	transition: background-color 0.8s ease;
+	font-size: 1.3em;
+	float: right;
+	padding-top: 5%;
+}
+
+.buttonsContainer {
+	padding-top: 5%;
+}
+
+#newQuoteContainer {
+	width: 100px;
+	display: inline;
+}
+
+#tweetQuoteContainer {
+	padding-right: 10px;
+	display: inline;
+}
+
+.refreshIcon, .tweetIcon {
+	font-size: 50px;
+	color: #A44A3F;
+	display: inline-block;
+}
+
+.creator {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 500;
+	padding-top: 10px;
+	opacity: 0.5;
 }
