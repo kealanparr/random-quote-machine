@@ -1,6 +1,12 @@
 To build the site, run `npm start`
 
-To deploy it out, simply run: `netlify deploy --prod` 
+
+To deploy it out, simply run: 
+
+*Create React app creates a production ready build in the folder "build", so when Netlify asks which folder to deploy, ensure it's the "build" folder*
+
+First, build it -> `npm run build`  
+Then, deploy it -> `netlify deploy --prod`
 
 It fulfills the below user stories from [here](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine):
 
