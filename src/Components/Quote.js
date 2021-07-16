@@ -11,15 +11,15 @@ const QuoteModal = () => {
 		document.getElementById("author").style.color = color;
 
 		/// Font awesome icons
-		document.getElementsByClassName("tweet")[0].style.color = color;
-		document.getElementsByClassName("refresh")[0].style.color = color;
-		document.getElementsByClassName("leftQuote")[0].style.color = color;
+		document.getElementsByClassName("tweetIcon")[0].style.color = color;
+		document.getElementsByClassName("refreshIcon")[0].style.color = color;
+		document.getElementsByClassName("leftQuoteIcon")[0].style.color = color;
 	}
 
 	return (
 		State &&
 		<div class="modal-container">
-			<i class="fa fa-quote-left leftQuote" aria-hidden="true"></i>
+			<i class="fa fa-quote-left leftQuoteIcon" aria-hidden="true"></i>
 			<span id="text">{State[index].quote}</span>
 			<div id="author">- {State[index].author}</div>
 			<InfoPanel index={index} setIndex={setIndex} changeColor={changeColor} />
