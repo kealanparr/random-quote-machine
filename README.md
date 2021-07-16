@@ -1,6 +1,6 @@
 To build the site, run `npm start`
 
-To deploy it out, simple run: `netlify deploy --prod`
+To deploy it out, simply run: `netlify deploy --prod`
 
 It fulfills the below user stories from [here](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine):
 
